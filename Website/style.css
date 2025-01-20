@@ -1,0 +1,79 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.heading{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.DocLink{
+    display: block;
+}
+.projectTitle{
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 600px;
+    height: 600px;
+    border: solid;
+}
+.projectDescription{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 50px;
+    border-radius: 5px;
+    line-height: 2;
+    border: solid;
+}
+.block{
+    display: inline-block;
+    margin-left: 80px;
+}
+.child{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.description{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+.projectTitle{
+    color: white;
+}
+.navbar{
+    justify-content: start;
+}
+.homeLink{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: auto;
+}
+.aboutLink{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.documentsLink{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.smallHR{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.medHR{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+}
